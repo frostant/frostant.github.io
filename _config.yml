@@ -1,0 +1,32 @@
+# 注意事项：本地测试端口为50500 记得调整
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+# permalink:           pretty
+# relative_permalinks: true
+
+# Setup
+title: frostant
+tagline: 'A Blog'
+description: 'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+# url: http://lanyon.getpoole.com  这个可能是其他文件才需要吧
+baseurl: ''
+# 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'
+port: 50500        
+regenerate: true # 强制每次重建，防止奇奇怪怪的错误，但增加时间    
+# About/contact
+author:
+    name: frostant        
+    url: https://twitter.com/mdo
+
+# Custom vars
+version:             1.0.0
+
+defaults: 
+    scope:
+        path: ""
+        type: "posts"
+    values: 
+        layout: "default"
+
